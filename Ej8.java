@@ -23,6 +23,8 @@ public class Ej8 {
 
         System.out.println("El resultado es " + potencia(base, expo));
 
+        //falta bucle
+        
         teclado.close();
     }
 }
