@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Ej8 {
     /* Ejercicio8.  Escribe  un  programa  que  calcule  la  operación  de  potencia  (base 
