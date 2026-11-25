@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ej9 {
+public class Ej10 {
     /* Ejercicio10. Escribe un programa que cuente las vocales en una cadena de texto 
     introducida  por  el  usuario.  Utiliza  una  función  que  tenga  como  parámetro  una 
     cadena de texto y devuelva un entero. 

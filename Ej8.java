@@ -8,8 +8,12 @@ public class Ej8 {
 
     public static int potencia(int base, int exponente){
 
-        double resultado = Math.pow(base, exponente);
-        return (int) resultado; // casting explicito a int
+        int resultado = 1;
+        for (int i=0; i<exponente; i++){
+            resultado = resultado * base;
+        }
+
+        return resultado;
     }
     
 
@@ -22,8 +26,6 @@ public class Ej8 {
         int expo = teclado.nextInt();
 
         System.out.println("El resultado es " + potencia(base, expo));
-
-        //falta bucle
         
         teclado.close();
     }
