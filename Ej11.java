@@ -25,6 +25,7 @@ public class Ej11 {
                 
             }
         }
+        
         System.out.println("Carácter " + buscar + " localizado: " + localizado);
         return localizado;
     }
@@ -39,6 +40,7 @@ public class Ej11 {
         char buscar = teclado.next().charAt(0);
 
         buscarCaracter(cadena, buscar);
+        System.out.println("El carácter " + buscar + " se encuentra en la cadena: " + cadena);
         
         teclado.close();
     }
