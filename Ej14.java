@@ -56,8 +56,7 @@ public class Ej14 {
 
         } while (!opcion.equals("5"));
 
-
-        System.out.println("Saliendo...");
+        System.out.println("Saliendo del menu...");
         teclado.close();
 
 
